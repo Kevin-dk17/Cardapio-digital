@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+html,
+body{
+    margin: 0%;
+}
+
+body{
+    background-color: lightgray;
+}
+
+header{
+    background-color: black;
+    display: flex;
+}
+
+#logo{
+    width: 70px;
+    height: 70px;
+}
+
+#nome{
+    color: #FFBB1E;
+    text-align: center;
+    font: bold 30px arial;
+    margin: auto;
+}
+
+#cardapio{
+    background-color: white;
+    color: #FFBB1E;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    border: solid 2px black;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#tab{
+    margin: auto;
+    background-color: black;
+    width: 300px;
+    height: 400px;
+}
+
+#chat{
+    background-color: black;
+    width: 500px;
+    height: 550px;
+    padding-top: 10px;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#clean {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #FFBB1E;
+    font: bold 15px black;
+}
+
+#msg{
+    background-color: white;
+    border: solid 2px #FFBB1E;
+    border-radius: 5px;
+    width: 465px;
+    height: 450px;
+    margin: auto;
+    overflow: auto;
+}
+
+#txtm{
+    width: 380px;
+    height: 20px;
+    margin-top: 10px;
+    outline: none;
+}
+
+#btenv{
+    text-align: center;
+    height:30px;
+    background-color: #FFBB1E;
+    width: 90px;
+    font: bold 15px black;
+}
+
+#robo{
+    border: solid black 1px;
+    border-radius: 3000px;
+    width: 40px;
+    height: 40px;
+}
+
+.txtcon{
+    background-color: #FFBB1E;
+    width: 260px;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.txtres{
+    background-color: gray;
+    width: 260px;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 36.5%;
+    margin-bottom: 5px;
+}
+
+footer{
+    background-color: black;
+    color: #FFBB1E;
+    bottom: 0%;
+    height: 20px;
+    width: 100%;
+    position: sticky;
+    text-align: center;
+}

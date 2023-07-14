@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon_b06f973c52021b777f6a746ad7c3fa7c.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Cardápio</title>
+</head>
+<body>
+
+    <header>
+        <img id="logo" src="logo.png" alt="logo">
+        <div id="nome">DK Hamburgueria</div>
+    </header>
+
+    <section id="cardapio">
+
+        <h1 id="cons">Cardápio</h1>
+
+        <table border="5" id="tab">
+            <tr>
+                <td>Código</td>
+                <td>Item</td>
+                <td>Valor</td>
+            </tr>
+            <tr>
+                <td>100</td>
+                <td>Cachorro-Quente</td>
+                <td>R$ 9,00</td>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Cachorro-Quente Duplo</td>
+                <td>R$ 11,00</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>X-Egg</td>
+                <td>R$ 12,00</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>X-Salada</td>
+                <td>R$ 13,00</td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>X-Bacon</td>
+                <td>R$ 14,00</td>
+            </tr>
+            <tr>
+                <td>105</td>
+                <td>X-Tudo</td>
+                <td>R$ 17,00</td>
+            </tr>
+            <tr>
+                <td>200</td>
+                <td>Refrigerante Lata</td>
+                <td>R$ 5,00</td>
+            </tr>
+            <tr>
+                <td>201</td>
+                <td>Chá Gelado</td>
+                <td>R$ 4,00</td>
+            </tr>
+        </table>
+
+    </section>
+
+    <Section id="chat">
+
+        <button value="Novo Pedido" id="clean" onclick="limpar()">Novo Pedido</button>
+
+        <div id="msg">
+            
+        </div>
+        <input type="text" placeholder="Digite Pedido, para iniciar..." id="txtm"> <button value="Enviar" id="btenv" onclick="enviar()">Enviar</button> 
+
+    </Section>
+
+    <footer>
+        <p>&copy;DKDesenvolvimento</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
